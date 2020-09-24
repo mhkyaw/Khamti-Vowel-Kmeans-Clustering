@@ -21,7 +21,7 @@ def main():
   set0.centroid_iteration(data, centroids)
   set0.graph()
   file.close()
-
+ 
 class Kmeans:
   def __init__(self, k):
     self.k = k
